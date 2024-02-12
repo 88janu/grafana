@@ -1,5 +1,5 @@
 ---
-- hosts: java_servers
+- hosts: all
   become: true
   tasks:
     - name: Add Grafana APT repository key
